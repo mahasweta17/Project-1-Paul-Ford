@@ -20,16 +20,11 @@ header{
   display:grid;
   grid-template-columns:3fr 1fr 1fr 1fr;
 }
-header div{
-  color:black;
-  font-family: 'Roboto', sans-serif;
 
-  grid-column-start:2;
-  grid-column-end:4;
-  grid-row-start:1;
-  grid-row-end: 1;
+header div{color:black;
+font-family: 'Roboto', sans-serif;
+font-size: 32px;
 }
-
 
 main{
   display:grid;
