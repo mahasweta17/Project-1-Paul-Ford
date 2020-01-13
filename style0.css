@@ -1,0 +1,36 @@
+h1{
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  height:35px;
+}
+
+
+
+
+header h1{
+  display:grid;
+  grid-template-columns:1fr 2fr 1fr ;
+  grid-column-start:2;
+
+}
+
+
+
+
+
+
+main{
+  display:grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+
+main div{font-family: 'Roboto', sans-serif;
+
+
+grid-column-start:2;
+grid-column-end:3;
+grid-row-start:1;
+grid-row-end: 2;
+}
